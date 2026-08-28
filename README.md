@@ -1,14 +1,14 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg">
-  <img alt="Billy Martin — Building Physical AI" src="./hero-dark.svg" width="100%">
+  <img alt="Building Physical AI" src="./hero-dark.svg" width="100%">
 </picture>
 
 <div align="center">
 
 ### Intelligence for the physical world.
 
-I’m **Billy Martin**, founder of [**Tribalogix**](https://tribalogix.ai) — building Physical AI that understands how parts become products, how machines turn intent into reality, and how industrial systems become resilient.
+Founder of [**Tribalogix**](https://tribalogix.ai) — building Physical AI that understands how parts become products, how machines turn intent into reality, and how industrial systems become resilient.
 
 [**Explore Tribalogix →**](https://tribalogix.ai)&nbsp;&nbsp;&nbsp; [**Follow the build →**](https://github.com/Virciti)
 
