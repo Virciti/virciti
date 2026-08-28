@@ -44,8 +44,6 @@ The goal is not another dashboard. It is a reasoning layer that can move from in
 
 <div align="center">
 
-### Overly ambitious. ADHD-powered. Building Physical AI.
-
 <sub>Founder-led · Agent-amplified · Built for the physical world</sub>
 
 </div>
