@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
-  <title id="title">Billy Martin — Building Physical AI</title>
+  <title id="title">Building Physical AI</title>
   <desc id="desc">A cinematic graphite and cyan banner with precision geometry and an animated industrial intelligence core.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -61,7 +61,6 @@
     <path d="M74 86v-14h14M1312 72h14v14M74 434v14h14M1312 448h14v-14" fill="none" stroke="#56ddff" stroke-opacity=".5" stroke-width="1.5"/>
 
     <g class="sans">
-      <text x="86" y="128" fill="#74dff8" font-size="15" font-weight="650" letter-spacing="5">BILLY MARTIN</text>
       <text x="84" y="219" fill="#f4f8fb" font-size="72" font-weight="720" letter-spacing="-3.5">BUILDING</text>
       <text x="82" y="294" fill="url(#cyan)" font-size="72" font-weight="720" letter-spacing="-3.5">PHYSICAL AI</text>
       <text x="88" y="342" fill="#a7b4bf" font-size="20" font-weight="420" letter-spacing=".1">Intelligence for the systems that build the world.</text>
