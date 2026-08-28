@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Billy Martin — Building Physical AI" src="./assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./hero-light.svg">
+  <img alt="Billy Martin — Building Physical AI" src="./hero-dark.svg" width="100%">
 </picture>
 
 <div align="center">
@@ -17,9 +17,9 @@ I’m **Billy Martin**, founder of [**Tribalogix**](https://tribalogix.ai) — b
 <br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/system-map-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/system-map-light.svg">
-  <img alt="Understand, plan, produce, inspect, learn" src="./assets/system-map-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="./system-map-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./system-map-light.svg">
+  <img alt="Understand, plan, produce, inspect, learn" src="./system-map-dark.svg" width="100%">
 </picture>
 
 ## The thesis
