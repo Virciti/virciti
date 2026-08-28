@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Billy Martin — Building Physical AI</title>
+  <desc id="desc">A cinematic graphite and cyan banner with precision geometry and an animated industrial intelligence core.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080c"/>
+      <stop offset="0.55" stop-color="#0a1118"/>
+      <stop offset="1" stop-color="#030609"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#38d9ff" stop-opacity=".22"/>
+      <stop offset=".5" stop-color="#0aa7db" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#0aa7db" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#57e2ff"/>
+      <stop offset="1" stop-color="#149dcc"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#42dfff" stop-opacity="0"/>
+      <stop offset=".48" stop-color="#42dfff" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#42dfff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#9bdff0" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <clipPath id="frame"><rect x="1" y="1" width="1398" height="518" rx="28"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+    .mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}
+    .orbit-a{transform-origin:1085px 242px;animation:spin 22s linear infinite}
+    .orbit-b{transform-origin:1085px 242px;animation:spinBack 34s linear infinite}
+    .pulse{animation:pulse 4.8s ease-in-out infinite}
+    .scan{animation:scan 7s ease-in-out infinite}
+    .node{animation:node 3.6s ease-in-out infinite}
+    .node2{animation-delay:1.2s}.node3{animation-delay:2.4s}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    @keyframes spinBack{to{transform:rotate(-360deg)}}
+    @keyframes pulse{0%,100%{opacity:.38;transform:scale(.985)}50%{opacity:1;transform:scale(1.02)}}
+    @keyframes scan{0%,100%{transform:translateX(-210px);opacity:0}18%,82%{opacity:.7}50%{transform:translateX(210px);opacity:1}}
+    @keyframes node{0%,100%{opacity:.3}50%{opacity:1}}
+    @media (prefers-reduced-motion:reduce){.orbit-a,.orbit-b,.pulse,.scan,.node{animation:none}}
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="1400" height="520" fill="url(#bg)"/>
+    <rect width="1400" height="520" fill="url(#grid)"/>
+    <ellipse cx="1080" cy="246" rx="360" ry="310" fill="url(#halo)"/>
+    <ellipse cx="1055" cy="250" rx="190" ry="190" fill="#0fc7f5" opacity=".035" filter="url(#soft)"/>
+
+    <path d="M60 72H600" stroke="url(#line)" opacity=".36"/>
+    <path d="M60 448H1340" stroke="url(#line)" opacity=".24"/>
+    <path d="M74 86v-14h14M1312 72h14v14M74 434v14h14M1312 448h14v-14" fill="none" stroke="#56ddff" stroke-opacity=".5" stroke-width="1.5"/>
+
+    <g class="sans">
+      <text x="86" y="128" fill="#74dff8" font-size="15" font-weight="650" letter-spacing="5">BILLY MARTIN</text>
+      <text x="84" y="219" fill="#f4f8fb" font-size="72" font-weight="720" letter-spacing="-3.5">BUILDING</text>
+      <text x="82" y="294" fill="url(#cyan)" font-size="72" font-weight="720" letter-spacing="-3.5">PHYSICAL AI</text>
+      <text x="88" y="342" fill="#a7b4bf" font-size="20" font-weight="420" letter-spacing=".1">Intelligence for the systems that build the world.</text>
+    </g>
+
+    <g transform="translate(88 382)" class="mono" font-size="12" letter-spacing="1.5">
+      <text x="0" y="0" fill="#e2edf2">PART</text>
+      <path d="M48-4h44m-8-6 9 6-9 6" fill="none" stroke="#3ecdf0" stroke-opacity=".75"/>
+      <text x="108" y="0" fill="#e2edf2">PROCESS</text>
+      <path d="M178-4h44m-8-6 9 6-9 6" fill="none" stroke="#3ecdf0" stroke-opacity=".75"/>
+      <text x="238" y="0" fill="#e2edf2">MACHINE</text>
+      <path d="M308-4h44m-8-6 9 6-9 6" fill="none" stroke="#3ecdf0" stroke-opacity=".75"/>
+      <text x="368" y="0" fill="#e2edf2">PROOF</text>
+    </g>
+
+    <g aria-hidden="true">
+      <circle cx="1085" cy="242" r="186" fill="none" stroke="#65e3ff" stroke-opacity=".12"/>
+      <circle cx="1085" cy="242" r="156" fill="none" stroke="#65e3ff" stroke-opacity=".2" stroke-dasharray="2 10" class="orbit-b"/>
+      <circle cx="1085" cy="242" r="126" fill="none" stroke="#3ed9ff" stroke-opacity=".42" stroke-width="2" stroke-dasharray="90 24 8 24" class="orbit-a"/>
+      <circle cx="1085" cy="242" r="97" fill="none" stroke="#9beeff" stroke-opacity=".2" stroke-dasharray="1 8" class="orbit-b"/>
+
+      <g class="orbit-a" fill="none" stroke="#54dfff" stroke-opacity=".38">
+        <path d="M1085 98v22M1085 364v22M941 242h22M1207 242h22"/>
+        <path d="M983 140l16 16M1171 328l16 16M983 344l16-16M1171 156l16-16"/>
+      </g>
+
+      <g class="pulse" style="transform-origin:1085px 242px">
+        <path d="M1039 187h92l46 55-46 55h-92l-46-55z" fill="#071720" stroke="#6ee5ff" stroke-opacity=".75" stroke-width="1.5"/>
+        <path d="M1051 204h68l31 38-31 38h-68l-31-38z" fill="#0b2633" stroke="#3ed8ff" stroke-opacity=".7"/>
+        <circle cx="1085" cy="242" r="24" fill="#4edfff" opacity=".1" stroke="#83ebff" stroke-width="2" filter="url(#glow)"/>
+        <circle cx="1085" cy="242" r="7" fill="#bff6ff" filter="url(#glow)"/>
+      </g>
+
+      <path d="M935 242h96M1139 242h96M1085 92v96M1085 296v96" stroke="#45d9ff" stroke-opacity=".12"/>
+      <path d="M883 242h404" stroke="url(#line)" class="scan" opacity=".55"/>
+
+      <g fill="#8decff" filter="url(#glow)">
+        <circle cx="958" cy="150" r="3.5" class="node"/>
+        <circle cx="1218" cy="191" r="3.5" class="node node2"/>
+        <circle cx="1154" cy="365" r="3.5" class="node node3"/>
+      </g>
+      <g class="mono" fill="#73cce1" font-size="9" letter-spacing="1.2" opacity=".7">
+        <text x="924" y="138">INTENT</text>
+        <text x="1230" y="194">MOTION</text>
+        <text x="1168" y="378">EVIDENCE</text>
+      </g>
+    </g>
+
+    <g class="mono" fill="#6f8593" font-size="9" letter-spacing="1.6">
+      <text x="86" y="478">FOUNDER · SYSTEMS ARCHITECT · TRIBALOGIX</text>
+      <text x="1175" y="478">BUILD / 2026</text>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1398" height="518" rx="28" fill="none" stroke="#88dff2" stroke-opacity=".18" stroke-width="2"/>
+</svg>
+

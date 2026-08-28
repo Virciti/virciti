@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="230" viewBox="0 0 1400 230" role="img" aria-labelledby="title desc">
+  <title id="title">Physical AI closed-loop system</title>
+  <desc id="desc">A five-stage system flowing from understand to plan, produce, inspect, and learn.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070b10"/><stop offset="1" stop-color="#0c141b"/></linearGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#2bd3fb" stop-opacity=".08"/><stop offset=".5" stop-color="#68e5ff"/><stop offset="1" stop-color="#2bd3fb" stop-opacity=".08"/></linearGradient>
+    <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#83d9eb" stroke-opacity=".035"/></pattern>
+  </defs>
+  <style>
+    .sans{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}.mono{font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace}.signal{animation:travel 7s ease-in-out infinite}.p2{animation-delay:1.4s}.p3{animation-delay:2.8s}.p4{animation-delay:4.2s}.p5{animation-delay:5.6s}@keyframes travel{0%,100%{opacity:.2;transform:scale(.8)}45%,60%{opacity:1;transform:scale(1.2)}}@media(prefers-reduced-motion:reduce){.signal{animation:none}}
+  </style>
+  <rect x="1" y="1" width="1398" height="228" rx="24" fill="url(#bg)" stroke="#80ddf0" stroke-opacity=".15" stroke-width="2"/><rect x="1" y="1" width="1398" height="228" rx="24" fill="url(#grid)"/>
+  <text x="68" y="54" class="mono" fill="#6bdcf5" font-size="11" letter-spacing="3">THE PHYSICAL AI LOOP</text>
+  <text x="1260" y="54" class="mono" fill="#71828d" font-size="10" letter-spacing="2">CLOSED LOOP</text>
+  <path d="M150 123H1250" stroke="url(#rail)" stroke-width="2"/>
+  <path d="M1227 114l23 9-23 9" fill="none" stroke="#52ddfb" stroke-opacity=".75"/>
+  <g fill="#8bedff" filter="url(#glow)"><circle cx="180" cy="123" r="4" class="signal"/><circle cx="440" cy="123" r="4" class="signal p2"/><circle cx="700" cy="123" r="4" class="signal p3"/><circle cx="960" cy="123" r="4" class="signal p4"/><circle cx="1220" cy="123" r="4" class="signal p5"/></g>
+  <g class="sans" text-anchor="middle">
+    <g transform="translate(180 123)"><circle r="29" fill="#0b1d25" stroke="#44d7f7" stroke-opacity=".72"/><circle r="7" fill="#8cecff"/><text y="59" fill="#eef8fb" font-size="14" font-weight="650" letter-spacing="1.4">UNDERSTAND</text><text y="78" fill="#6f8590" font-size="10" letter-spacing="1.2">PRODUCT TRUTH</text></g>
+    <g transform="translate(440 123)"><circle r="29" fill="#0b1d25" stroke="#44d7f7" stroke-opacity=".72"/><path d="M-9 8 0-10 9 8Z" fill="none" stroke="#8cecff" stroke-width="2"/><text y="59" fill="#eef8fb" font-size="14" font-weight="650" letter-spacing="1.4">PLAN</text><text y="78" fill="#6f8590" font-size="10" letter-spacing="1.2">DECISION LOGIC</text></g>
+    <g transform="translate(700 123)"><circle r="34" fill="#0d2732" stroke="#65e3ff" stroke-width="2"/><path d="M-11-10h22v20h-22zM-5-4h10v8h-10z" fill="none" stroke="#a9f1ff"/><text y="64" fill="#72e5ff" font-size="14" font-weight="700" letter-spacing="1.4">PRODUCE</text><text y="83" fill="#79919c" font-size="10" letter-spacing="1.2">PHYSICAL MOTION</text></g>
+    <g transform="translate(960 123)"><circle r="29" fill="#0b1d25" stroke="#44d7f7" stroke-opacity=".72"/><path d="M-10 1-3 8 11-8" fill="none" stroke="#8cecff" stroke-width="2.5"/><text y="59" fill="#eef8fb" font-size="14" font-weight="650" letter-spacing="1.4">INSPECT</text><text y="78" fill="#6f8590" font-size="10" letter-spacing="1.2">VERIFIED EVIDENCE</text></g>
+    <g transform="translate(1220 123)"><circle r="29" fill="#0b1d25" stroke="#44d7f7" stroke-opacity=".72"/><path d="M-10 0a10 10 0 1 1 4 8M-11 0v-8h8" fill="none" stroke="#8cecff" stroke-width="2"/><text y="59" fill="#eef8fb" font-size="14" font-weight="650" letter-spacing="1.4">LEARN</text><text y="78" fill="#6f8590" font-size="10" letter-spacing="1.2">COMPOUNDING INTEL</text></g>
+  </g>
+</svg>
+
